@@ -2,7 +2,7 @@
 
 An end-to-end business analytics project: cleaning a messy open dataset of **500,269 service requests**, modelling it in Power BI, and turning it into a three-page dashboard that answers practical questions for city service managers.
 
-![Overview page](screenshots/overview.png)
+![Overview page](screenshots/Overview.png)
 
 ## Business Problem
 
@@ -69,17 +69,17 @@ A simple star-style model:
 ### 1. Overview
 Total volume, average daily requests, top request types, monthly trend and workload by division.
 
-![Overview](screenshots/overview.png)
+![Overview](screenshots/Overview.png)
 
 ### 2. When and Where
 Day-and-hour heatmap, requests by weekday, by ward, and the top postal areas. Figures on this page are for requests that have a postal code (421,812 requests); intersection-based requests are excluded.
 
-![When and Where](screenshots/when_and_where.png)
+![When and Where](screenshots/When_And_Where.png)
 
 ### 3. Service Outcomes
 Resolution rates, outcome mix by division, month-over-month change and a division scorecard.
 
-![Service Outcomes](screenshots/service_outcomes.png)
+![Service Outcomes](screenshots/Service_Outcomes.png)
 
 ## Key Findings
 
@@ -123,9 +123,9 @@ Overall, 80.5% of requests are resolved, 7.8% are open and 10.3% (about 52,000) 
 ├── README.md
 ├── Toronto_311_Dashboard_2025.pbix
 ├── screenshots/
-│   ├── overview.png
-│   ├── when and where.png
-│   └── service outcomes.png
+│   ├── Overview.png
+│   ├── When And Where.png
+│   └── Service Outcomes.png
 └── data/
     └── SR2025.zip
 ```
