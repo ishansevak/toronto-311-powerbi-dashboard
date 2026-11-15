@@ -124,8 +124,8 @@ Overall, 80.5% of requests are resolved, 7.8% are open and 10.3% (about 52,000) 
 ├── Toronto_311_Dashboard_2025.pbix
 ├── screenshots/
 │   ├── Overview.png
-│   ├── When And Where.png
-│   └── Service Outcomes.png
+│   ├── When_And_Where.png
+│   └── Service_Outcomes.png
 └── data/
     └── SR2025.zip
 ```
