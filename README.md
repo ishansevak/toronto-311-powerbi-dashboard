@@ -74,12 +74,12 @@ Total volume, average daily requests, top request types, monthly trend and workl
 ### 2. When and Where
 Day-and-hour heatmap, requests by weekday, by ward, and the top postal areas. Figures on this page are for requests that have a postal code (421,812 requests); intersection-based requests are excluded.
 
-![When and Where](When And Where.png)
+![When and Where](When_And_Where.png)
 
 ### 3. Service Outcomes
 Resolution rates, outcome mix by division, month-over-month change and a division scorecard.
 
-![Service Outcomes](Service Outcomes.png)
+![Service Outcomes](Service_Outcomes.png)
 
 ## Key Findings
 
