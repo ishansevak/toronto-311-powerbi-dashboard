@@ -2,7 +2,7 @@
 
 An end-to-end business analytics project: cleaning a messy open dataset of **500,269 service requests**, modelling it in Power BI, and turning it into a three-page dashboard that answers practical questions for city service managers.
 
-![Overview page](screenshots/01_overview.png)
+![Overview page](screenshots/overview.png)
 
 ## Business Problem
 
@@ -69,17 +69,17 @@ A simple star-style model:
 ### 1. Overview
 Total volume, average daily requests, top request types, monthly trend and workload by division.
 
-![Overview](screenshots/01_overview.png)
+![Overview](screenshots/overview.png)
 
 ### 2. When and Where
 Day-and-hour heatmap, requests by weekday, by ward, and the top postal areas. Figures on this page are for requests that have a postal code (421,812 requests); intersection-based requests are excluded.
 
-![When and Where](screenshots/02_when_and_where.png)
+![When and Where](screenshots/when_and_where.png)
 
 ### 3. Service Outcomes
 Resolution rates, outcome mix by division, month-over-month change and a division scorecard.
 
-![Service Outcomes](screenshots/03_service_outcomes.png)
+![Service Outcomes](screenshots/service_outcomes.png)
 
 ## Key Findings
 
