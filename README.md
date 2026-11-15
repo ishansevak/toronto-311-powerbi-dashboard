@@ -47,15 +47,15 @@ Every step is named in the Applied Steps pane so the cleaning process can be fol
 
 A simple star-style model:
 
-- **`Fact_311`**: one row per request (Date, Hour, Status, Status Group, Ward, Division, Section, Service Request Type, postal area, Location Type)
-- **`Dim_Date`**: calendar table for 2025 (Month, Day Name, Is Weekend), marked as the date table
-- **Relationship:** `Dim_Date[Date]` → `Fact_311[Date]`, one-to-many, single direction
+- **`311 Request`**: one row per request (Date, Hour, Status, Status Group, Ward, Division, Section, Service Request Type, postal area, Location Type)
+- **`Date Table`**: calendar table for 2025 (Month, Day Name, Is Weekend), marked as the date table
+- **Relationship:** `Date Table[Date]` → `311 Request[Date]`, one-to-many, single direction
 
 ## Key DAX Measures
 
 | Measure | Purpose |
 |---|---|
-| `Total Requests` | `COUNTROWS(Fact_311)` |
+| `Total Requests` | `COUNTROWS(311 Request)` |
 | `Avg Daily Requests` | Total requests divided by distinct days |
 | `% of Total` | Share of requests, respecting current selections |
 | `MoM % Change` | Month-over-month change using `DATEADD` |
@@ -123,9 +123,9 @@ Overall, 80.5% of requests are resolved, 7.8% are open and 10.3% (about 52,000) 
 ├── README.md
 ├── Toronto_311_Dashboard_2025.pbix
 ├── screenshots/
-│   ├── 01_overview.png
-│   ├── 02_when_and_where.png
-│   └── 03_service_outcomes.png
+│   ├── overview.png
+│   ├── when and where.png
+│   └── service outcomes.png
 └── data/
     └── SR2025.zip
 ```
@@ -140,4 +140,4 @@ Overall, 80.5% of requests are resolved, 7.8% are open and 10.3% (about 52,000) 
 
 Built by **Ishan Sevak** as a portfolio project for business analyst and project management roles. Background: MBA (Finance) and graduate certificates in Project Management and Data Analytics.
 
-Connect on LinkedIn: [Add your LinkedIn URL here]
+Connect on LinkedIn: www.linkedin.com/in/ishan-sevak-819052a6
