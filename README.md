@@ -120,14 +120,12 @@ Overall, 80.5% of requests are resolved, 7.8% are open and 10.3% (about 52,000) 
 ## Repository Structure
 
 ```
+├── 311 Service Requests 2025.zip
+├── Overview.png
 ├── README.md
+├── Service_Outcomes.png
 ├── Toronto_311_Dashboard_2025.pbix
-├── screenshots/
-│   ├── Overview.png
-│   ├── When_And_Where.png
-│   └── Service_Outcomes.png
-└── data/
-    └── SR2025.zip
+└── When_And_Where.png
 ```
 
 ## How to Open
