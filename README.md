@@ -138,4 +138,4 @@ Overall, 80.5% of requests are resolved, 7.8% are open and 10.3% (about 52,000) 
 
 Built by **Ishan Sevak** as a portfolio project for business analyst and project management roles. Background: MBA (Finance) and graduate certificates in Project Management and Data Analytics.
 
-Connect on LinkedIn: www.linkedin.com/in/ishan-sevak-819052a6
+Connect on LinkedIn: www.linkedin.com/in/ishan-sevak
